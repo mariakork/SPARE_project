@@ -3,11 +3,11 @@ project:
   output-dir: _book
   
 book:
-  title: "This is the title"
-  author: "Kari Nordmann"
+  title: "Bynatur Atlas"
+  author: "Maria Korkou"
   description: | 
     Add some description here if you like.
-  repo-url: https://github.com/NINAnor/NINA-ebook-template
+  repo-url: https://mariakork.github.io/SPARE_project/
   repo-branch: main
   repo-actions: [edit]
   sharing: [twitter, facebook, linkedin]
@@ -16,6 +16,8 @@ book:
     - part: my-first-book.qmd
       chapters: 
         - hello-world.qmd
+        - Chapter_1.qmd
+        - layers.qmd
   appendices:
     - appendix-notes.qmd
     
