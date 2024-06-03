@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.450">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="description" content="SPARE project - Space for resilience - how do we plan for stormwater, biodiversity and recreation to increase urban resilience?">
-<title>Bynatur Atlas - 1&nbsp; The Hello World Example</title>
+
+<title>Bynatur Atlas - 2&nbsp; Layers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,60 +21,8 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
+
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
@@ -80,8 +31,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Introduction.html" rel="next">
-<link href="./my-first-book.html" rel="prev">
+<link href="./appendix-notes.html" rel="next">
+<link href="./Introduction.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -90,7 +41,8 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -110,24 +62,33 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+
+
 </head>
+
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./my-first-book.html">Part 1: Write the book</a></li><li class="breadcrumb-item"><a href="./hello-world.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Hello World Example</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./my-first-book.html">Part 1: Write the book</a></li><li class="breadcrumb-item"><a href="./layers.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Layers</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Bynatur Atlas</a> 
         <div class="sidebar-tools-main">
@@ -135,26 +96,26 @@ div.csl-indent {
     <div class="dropdown">
       <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-<li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=%7Curl%7C">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
               <i class="bi bi-bi-twitter pe-1"></i>
             Twitter
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=%7Curl%7C">
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
               <i class="bi bi-bi-facebook pe-1"></i>
             Facebook
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=%7Curl%7C">
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
               <i class="bi bi-bi-linkedin pe-1"></i>
             LinkedIn
             </a>
           </li>
       </ul>
-</div>
+    </div>
 </div>
     </div>
       </div>
@@ -165,7 +126,7 @@ div.csl-indent {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-<li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
@@ -179,27 +140,21 @@ div.csl-indent {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./hello-world.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Hello World Example</span></span></a>
-  </div>
-</li>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">1. Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./layers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Layers</span></span></a>
+  <a href="./layers.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Layers</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
@@ -208,29 +163,39 @@ div.csl-indent {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./appendix-notes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Additional Notes</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
     </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-<li><a href="#figures-and-cross-referencing" id="toc-figures-and-cross-referencing" class="nav-link active" data-scroll-target="#figures-and-cross-referencing"><span class="header-section-number">1.1</span> Figures and cross referencing</a></li>
-  </ul><div class="toc-actions"><div><i class="bi bi-git"></i></div><div class="action-links"><p><a href="https://mariakork.github.io/SPARE_project/edit/main/hello-world.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+  <li><a href="#grunnkart" id="toc-grunnkart" class="nav-link active" data-scroll-target="#grunnkart"><span class="header-section-number">2.1</span> Grunnkart</a></li>
+  <li><a href="#areal" id="toc-areal" class="nav-link" data-scroll-target="#areal"><span class="header-section-number">2.2</span> Areal</a></li>
+  <li><a href="#tilstand-biodiversitet" id="toc-tilstand-biodiversitet" class="nav-link" data-scroll-target="#tilstand-biodiversitet"><span class="header-section-number">2.3</span> Tilstand-Biodiversitet</a></li>
+  <li><a href="#tilstand" id="toc-tilstand" class="nav-link" data-scroll-target="#tilstand"><span class="header-section-number">2.4</span> Tilstand</a></li>
+  <li><a href="#økosystemtjeneste" id="toc-økosystemtjeneste" class="nav-link" data-scroll-target="#økosystemtjeneste"><span class="header-section-number">2.5</span> Økosystemtjeneste</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-git"></i></div><div class="action-links"><p><a href="https://mariakork.github.io/SPARE_project/edit/main/layers.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title"><span id="sec-hello-world" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Hello World Example</span></span></h1>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Layers</span></h1>
 </div>
 
 
@@ -243,59 +208,72 @@ div.csl-indent {
   </div>
   
 
-</header><p>Hello Quarto World!</p>
-<section id="figures-and-cross-referencing" class="level2" data-number="1.1"><h2 data-number="1.1" class="anchored" data-anchor-id="figures-and-cross-referencing">
-<span class="header-section-number">1.1</span> Figures and cross referencing</h2>
-<p>You can cross reference figures and tables easily. See for example <a href="Introduction.html#fig-plot">Figure&nbsp;<span>3.1</span></a>, or if this figure was in the supplementary, you could add a custom prefix and cite it as <a href="Introduction.html#fig-plot">Figure S&nbsp;<span>3.1</span></a> .</p>
-<p>You can also cross reference chapters, for example with a hyper link like <a href="appendix-notes.html">this</a>, or directly, like <a href="appendix-notes.html"><span>Appendix&nbsp;A</span></a>.</p>
-<div class="cell">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">cars</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div id="fig-plot" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure"><p><img src="hello-world_files/figure-html/fig-plot-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption">Figure&nbsp;1.1: This is a figure caption</figcaption></figure>
-</div>
-</div>
-</div>
-<p>Here’s a simple markdown generated table <a href="Introduction.html#tbl-myTable">Table&nbsp;<span>3.1</span></a>:</p>
-<div id="tbl-myTable" class="anchored">
-<table class="table">
-<caption>Table&nbsp;1.1: My Table</caption>
-<thead><tr class="header">
-<th>Animal</th>
-<th>Colour</th>
-<th>Size</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td>Bear</td>
-<td>Brown</td>
-<td>Big</td>
-</tr>
-<tr class="even">
-<td>Wolf</td>
-<td>Grey</td>
-<td>Big</td>
-</tr>
-<tr class="odd">
-<td>Lynx</td>
-<td>Orange?</td>
-<td>Big</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>For adding reference, quarto work great with Zotero. If you are in RStudio, just type \@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the <code>references.bib</code> file. Here’s a reference to a paper <span class="citation" data-cites="arvesen2018">(<a href="#ref-arvesen2018" role="doc-biblioref">Arvesen et al. 2018</a>)</span>.</p>
-<p>For general Quarto help, see <a href="#0" style="font-size: 11pt;">here</a>, and for Quarto books, see <a href="Quarto – Book Structure>>">here</a>.</p>
-<section id="references" class="level4 unnumbered"><h4 class="unnumbered anchored" data-anchor-id="references">References</h4>
+</header>
+
+<p>The T6.5 of WP6 focuses on developing an interactive GIS platform for map dissemination based on spatial data on resilience (stormwater, biodiversity and recreation). This map can be founded under this link https://experience.arcgis.com/experience/81acd21d23e048388b710bcd8fca24cf/. You can open the link in the Microsoft Edge.</p>
+<p>To use the experience builder in ArcGIS online, you need first to activate the swipe widget (down in the middle of the page), that provides the option to view layers next to each other or one layer in the left side and the grey basemap on the right side. The map has been organised based on the Naturregnskap (Økosystemregnskap). The categories includes Grunnkart, Areal, Tilstand-Biodiversitet, Tilstand and Økosystemtjeneste. All the layers are inactive, and you have to click on the eye sign to activate them. Next to layer tab is the legend of the map. Every time that you open one layer, the legend is on too. When you open a layer, you zoom, and you can click in one block and get information in a table appearing next to the block.</p>
+<section id="grunnkart" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="grunnkart"><span class="header-section-number">2.1</span> Grunnkart</h2>
+<p><strong>Oslo kommune (by PBE, 2017)</strong></p>
+<p>It shows the borders of Oslo municipality.</p>
+<p><strong>Bydeler (by PBE, 2016)</strong></p>
+<p>It shows the borders of bydeler.</p>
+<p><strong>Grunnkretser (by PBE, 2016)</strong></p>
+<p>It shows the borders of grunnkretser.</p>
+<p><strong>Veier-avrenning 20mm</strong> <strong>Veier-avrenning 50mm</strong></p>
+<p>Layer shows developed a method for selecting streets for step 1 and step 2 in the three-step approach of Oslo (from Copenhagen University). “Since all roads should be able to meet the requirements of step 1, designating step 2 roads is the central aspect of the method. A step 2 road involves the detention of runoff from its area and its surroundings accommodating a service level corresponding to a precipitation event with a 5-year return period. This leads to the two following requirements for a step 2 road:</p>
+<ul>
+<li>Must retain precipitation hitting its road area</li>
+<li>Must retain excess water from upstream adjacent step 1 roads.</li>
+</ul>
+<p>This also entails that a step 2 road is not allowed to have a spillover. The developed method for designating these roads incorporates a parameter classified on a scale of 1 to 4. The parameter is flexible and context-dependent. Due to the topographical conditions of Oslo and due to the assumption of there being an important coherence between the slope of a road and its ability to retain and delay runoff, it is found appropriate to base this parameter on the slope, when Oslo is the case area. In addition, the road capacity is used for the designation. For roads to meet the requirements for step 2 roads, their capacity must be increased, i.e., the depth must be adjusted to a value higher than the size of the corresponding precipitation event with a 5-year return period. Otherwise, the step 2 road would only be able to fulfill requirement 1. Based on similar climate adaptation projects on roads in Copenhagen, the depth of the designated step 2 roads is set to 0.40 m (Jensen, 2023). The depth should again solely be seen as a necessary measure to calculate the capacity of the roads and illustrate the principle behind the developed method.” So, the maps show which roads can be recommended as step 1 and step 2 using the assumption that those two types of roads jointly should be able to manage a 20 mm rain event without overflow to lower-lying areas, and with a maximum storage depth of 40 cm on step 2 streets.</p>
+<p><strong>Arealregnskap-Økosystemtype (by NIBIO, 2024)</strong></p>
+<p>It shows the ecosystem type</p>
+<p><strong>Bymorfologiklassifisering for blokker (by NINA, 2022)</strong></p>
+<p>It shows the urban morphology of the</p>
+<p><strong>Befolkningsetthet per grunnkretser (by NINA, 2022)</strong></p>
+<p>It shows the population density per grunnkretser. Low values means low demand for tree planting due to low population density and high values means high demand for tree planting due to high population density.</p>
+</section>
+<section id="areal" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="areal"><span class="header-section-number">2.2</span> Areal</h2>
+<p><strong>Parker (provided by BYM, Oslo Kommune, 2020)</strong></p>
+<p>It shows the location of the parks in Oslo.</p>
+</section>
+<section id="tilstand-biodiversitet" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="tilstand-biodiversitet"><span class="header-section-number">2.3</span> Tilstand-Biodiversitet</h2>
+<p><strong>Trekkoridorer (by NINA, 2022)</strong></p>
+<p>It shows the tree corridors that are derived from a constructed 20m radius buffer of rivers and a 12m radius buffer of streams.</p>
+<p><strong>Egnethet for pollinerende insekter (by NINA, 2022)</strong></p>
+<p>The pollinator habitat suitability shows low values – low demand for tree planting due to high pollinator potential and high values – high demand for tree planting due to low pollinator potential.</p>
+<p><strong>Honning bie frie soner</strong></p>
+<p>It shows the area for free honeybee.</p>
+</section>
+<section id="tilstand" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="tilstand"><span class="header-section-number">2.4</span> Tilstand</h2>
+<p><strong>Avstand til Skoler (by NINA, 2022)</strong></p>
+<p>It shows the distance from school buildings based on the Euclidean distance. It is classified into 3 classifications, a) Distance &lt;= 50m: 0, b) 50m &lt; Distance &lt;= 200m: 0.5, c) Distance &gt; 200m: 1. Low values indicate high demand for tree planting due to short distance to school and high values indicate low demand for tree planting due to long distance to school.</p>
+<p><strong>Luftforurensing (by BYM Oslo Kommune, 2022)</strong> It shows the air pollution, where low values signify low demand for tree planting due to low air pollution and high values – high demand for tree planting due to high air pollution.</p>
+<p><strong>Trekroner (by NINA, 2021)</strong></p>
+<p>It shows the location of the trees.</p>
+<p><strong>Bakketemperatur (by NINA, 2022)</strong></p>
+<p>It represents the land surface temperature in Oslo and the low values show low demand for tree planting due to low surface temperatures and the high values shows the opposite (high demand for tree planting due to high surface temperatures).</p>
+<p><strong>Overflateavrenning (by NINA, 2022)</strong></p>
+<p>It shows the surface runoff where the low values are low demand for tree planting due to low surface runoff and the high values – high demand for tree planting due to high surface runoff.</p>
+<p><strong>Potensiale for trekronesynlighet (by NINA, 2022)</strong></p>
+<p>The visibility of tree planting locations shows low values as low suitability for planning new trees due to a low visibility of planted trees, and high values as high suitability for planting new trees due to a high visibility of planted trees.</p>
+<p><strong>Tilgjengelig areal av større treklynger (by NINA, 2022)</strong></p>
+<p>The accessibility of continuous tree canopy was computed based on the accessible area of medium-small, medium-large, and large continuous canopy of trees taller than 10 m within 200 m distance. Low values show high demand for planting new trees due to low tree accessibility and high values show low demand for planting new trees due to high tree accessibility.</p>
+</section>
+<section id="økosystemtjeneste" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="økosystemtjeneste"><span class="header-section-number">2.5</span> Økosystemtjeneste</h2>
+<p><strong>Trekronesynlighet (by NINA, 2022)</strong></p>
+<p>It shows the visual exposure to tree crowns, where low values mean low demand for tree planting due to high green visual exposure, and high values mean high demand for tree planting due to low green visual exposure.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-arvesen2018" class="csl-entry" role="listitem">
-Arvesen, A., Cherubini, F., Serrano, G. del A., Astrup, R., Becidan, M., Belbo, H., Goile, F., Grytli, T., Guest, G., Lausselet, C., Rørstad, P.K., Rydså, L., Seljeskog, M., Skreiberg, Ø., Vezhapparambu, S., and Strømman, A.H. 2018. Cooling aerosols and changes in albedo counteract warming from CO 2 and black carbon from forest bioenergy in norway. Scientific Reports <strong>8</strong>(September 2017): 1–13. doi:<a href="https://doi.org/10.1038/s41598-018-21559-8">10.1038/s41598-018-21559-8</a>.
-</div>
-</div>
-</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -527,14 +505,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="./my-first-book.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Part 1: Write the book</span>
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Introduction.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Introduction.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">1. Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./appendix-notes.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Additional Notes</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

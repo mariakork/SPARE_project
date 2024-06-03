@@ -4,15 +4,8 @@ bibliography: references.bib
 
 ## Welcome {.unnumbered}
 
-Welcome splash page! Provide an overview of the book.
+This work is part of the SPARE project that aims to provide knowledge, evidence-based management approaches and tools to
+better integrate climate change adaptation (with a focus on stormwater management), biodiversity support and
+recreation in urban land-use management by using BGI to enable SPARE-management and facilitate the
+transition to blue-green cities.
 
-Sample evaluation of R and Python in a side-by-side manner:
-
-#### R
-
-```{r}
-my_list = list(1, 2, 3)
-typeof(my_list)
-```
-
-See [Chapter 1](#sec-hello-world) for how to plot and cross reference figures. We cannot make cross referanceble objects on this page, because it is an *unnumbered* page, and you can't cross reference to things in unnumbered pages.

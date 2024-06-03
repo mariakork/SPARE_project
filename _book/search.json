@@ -14,7 +14,7 @@
     "href": "index.html#welcome",
     "title": "Bynatur Atlas",
     "section": "Welcome",
-    "text": "Welcome\nWelcome splash page! Provide an overview of the book.\nSample evaluation of R and Python in a side-by-side manner:\nR\n\nmy_list = list(1, 2, 3)\ntypeof(my_list)\n\n[1] \"list\"\n\n\nSee Chapter 1 for how to plot and cross reference figures. We cannot make cross referanceble objects on this page, because it is an unnumbered page, and you can’t cross reference to things in unnumbered pages."
+    "text": "Welcome\nThis work is part of the SPARE project that aims to provide knowledge, evidence-based management approaches and tools to better integrate climate change adaptation (with a focus on stormwater management), biodiversity support and recreation in urban land-use management by using BGI to enable SPARE-management and facilitate the transition to blue-green cities."
   },
   {
     "objectID": "my-first-book.html",
@@ -66,6 +66,62 @@
     "href": "hello-world.html#figures-and-cross-referencing",
     "title": "1  The Hello World Example",
     "section": "\n1.1 Figures and cross referencing",
-    "text": "1.1 Figures and cross referencing\nYou can cross reference figures and tables easily. See for example Figure 1.1, or if this figure was in the supplementary, you could add a custom prefix and cite it as Figure S 1.1 .\nYou can also cross reference chapters, for example with a hyper link like this, or directly, like Appendix A.\n\nplot(cars)\n\n\n\nFigure 1.1: This is a figure caption\n\n\n\nHere’s a simple markdown generated table Table 1.1:\n\n\nTable 1.1: My Table\n\nAnimal\nColour\nSize\n\n\n\nBear\nBrown\nBig\n\n\nWolf\nGrey\nBig\n\n\nLynx\nOrange?\nBig\n\n\n\n\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the references.bib file. Here’s a reference to a paper (Arvesen et al. 2018).\nFor general Quarto help, see here, and for Quarto books, see here.\nReferences\n\n\n\n\nArvesen, A., Cherubini, F., Serrano, G. del A., Astrup, R., Becidan, M., Belbo, H., Goile, F., Grytli, T., Guest, G., Lausselet, C., Rørstad, P.K., Rydså, L., Seljeskog, M., Skreiberg, Ø., Vezhapparambu, S., and Strømman, A.H. 2018. Cooling aerosols and changes in albedo counteract warming from CO 2 and black carbon from forest bioenergy in norway. Scientific Reports 8(September 2017): 1–13. doi:10.1038/s41598-018-21559-8."
+    "text": "1.1 Figures and cross referencing\nYou can cross reference figures and tables easily. See for example Figure 3.1, or if this figure was in the supplementary, you could add a custom prefix and cite it as Figure S 3.1 .\nYou can also cross reference chapters, for example with a hyper link like this, or directly, like Appendix A.\n\nplot(cars)\n\n\n\nFigure 1.1: This is a figure caption\n\n\n\nHere’s a simple markdown generated table Table 3.1:\n\n\nTable 1.1: My Table\n\nAnimal\nColour\nSize\n\n\n\nBear\nBrown\nBig\n\n\nWolf\nGrey\nBig\n\n\nLynx\nOrange?\nBig\n\n\n\n\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the references.bib file. Here’s a reference to a paper (Arvesen et al. 2018).\nFor general Quarto help, see here, and for Quarto books, see here.\nReferences\n\n\n\n\nArvesen, A., Cherubini, F., Serrano, G. del A., Astrup, R., Becidan, M., Belbo, H., Goile, F., Grytli, T., Guest, G., Lausselet, C., Rørstad, P.K., Rydså, L., Seljeskog, M., Skreiberg, Ø., Vezhapparambu, S., and Strømman, A.H. 2018. Cooling aerosols and changes in albedo counteract warming from CO 2 and black carbon from forest bioenergy in norway. Scientific Reports 8(September 2017): 1–13. doi:10.1038/s41598-018-21559-8."
+  },
+  {
+    "objectID": "Introduction.html",
+    "href": "Introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Aim: An interactive GIS map portal features digital maps showcasing the study report maps developed by the SPARE project. This portal serves as a map basis for ‘ecosystem accounting for the city’ and for testing the biodiversity index.\nFigure\n\n\n\nBynatur_Atlas"
+  },
+  {
+    "objectID": "Introduction.html#figures-and-cross-referencing",
+    "href": "Introduction.html#figures-and-cross-referencing",
+    "title": "\n1  Introduction\n",
+    "section": "\n2.1 Figures and cross referencing",
+    "text": "2.1 Figures and cross referencing\nYou can cross reference figures and tables easily. See for example Figure 2.1, or if this figure was in the supplementary, you could add a custom prefix and cite it as Figure S 2.1 .\nYou can also cross reference chapters, for example with a hyper link like this, or directly, like Appendix A.\n\nplot(cars)\n\n\n\nFigure 2.1: This is a figure caption\n\n\n\nHere’s a simple markdown generated table Table 2.1:\n\n\nTable 2.1: My Table\n\nAnimal\nColour\nSize\n\n\n\nBear\nBrown\nBig\n\n\nWolf\nGrey\nBig\n\n\nLynx\nOrange?\nBig\n\n\n\n\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the references.bib file. Here’s a reference to a paper (Arvesen et al. 2018).\nFor general Quarto help, see here, and for Quarto books, see here.\nReferences\n\n\n\n\nArvesen, A., Cherubini, F., Serrano, G. del A., Astrup, R., Becidan, M., Belbo, H., Goile, F., Grytli, T., Guest, G., Lausselet, C., Rørstad, P.K., Rydså, L., Seljeskog, M., Skreiberg, Ø., Vezhapparambu, S., and Strømman, A.H. 2018. Cooling aerosols and changes in albedo counteract warming from CO 2 and black carbon from forest bioenergy in norway. Scientific Reports 8(September 2017): 1–13. doi:10.1038/s41598-018-21559-8."
+  },
+  {
+    "objectID": "layers.html",
+    "href": "layers.html",
+    "title": "3  Layers",
+    "section": "",
+    "text": "The T6.5 of WP6 focuses on developing an interactive GIS platform for map dissemination based on spatial data on resilience (stormwater, biodiversity and recreation). This map can be founded under this link https://experience.arcgis.com/experience/81acd21d23e048388b710bcd8fca24cf/. You can open the link in the Microsoft Edge.\nTo use the experience builder in ArcGIS online, you need first to activate the swipe widget (down in the middle of the page), that provides the option to view layers next to each other or one layer in the left side and the grey basemap on the right side. The map has been organised based on the Naturregnskap (Økosystemregnskap). The categories includes Grunnkart, Areal, Tilstand-Biodiversitet, Tilstand and Økosystemtjeneste. All the layers are inactive, and you have to click on the eye sign to activate them. Next to layer tab is the legend of the map. Every time that you open one layer, the legend is on too. When you open a layer, you zoom, and you can click in one block and get information in a table appearing next to the block."
+  },
+  {
+    "objectID": "layers.html#grunnkart",
+    "href": "layers.html#grunnkart",
+    "title": "2  Layers",
+    "section": "2.1 Grunnkart",
+    "text": "2.1 Grunnkart\nOslo kommune (by PBE, 2017)\nIt shows the borders of Oslo municipality.\nBydeler (by PBE, 2016)\nIt shows the borders of bydeler.\nGrunnkretser (by PBE, 2016)\nIt shows the borders of grunnkretser.\nVeier-avrenning 20mm Veier-avrenning 50mm\nLayer shows developed a method for selecting streets for step 1 and step 2 in the three-step approach of Oslo (from Copenhagen University). “Since all roads should be able to meet the requirements of step 1, designating step 2 roads is the central aspect of the method. A step 2 road involves the detention of runoff from its area and its surroundings accommodating a service level corresponding to a precipitation event with a 5-year return period. This leads to the two following requirements for a step 2 road:\n\nMust retain precipitation hitting its road area\nMust retain excess water from upstream adjacent step 1 roads.\n\nThis also entails that a step 2 road is not allowed to have a spillover. The developed method for designating these roads incorporates a parameter classified on a scale of 1 to 4. The parameter is flexible and context-dependent. Due to the topographical conditions of Oslo and due to the assumption of there being an important coherence between the slope of a road and its ability to retain and delay runoff, it is found appropriate to base this parameter on the slope, when Oslo is the case area. In addition, the road capacity is used for the designation. For roads to meet the requirements for step 2 roads, their capacity must be increased, i.e., the depth must be adjusted to a value higher than the size of the corresponding precipitation event with a 5-year return period. Otherwise, the step 2 road would only be able to fulfill requirement 1. Based on similar climate adaptation projects on roads in Copenhagen, the depth of the designated step 2 roads is set to 0.40 m (Jensen, 2023). The depth should again solely be seen as a necessary measure to calculate the capacity of the roads and illustrate the principle behind the developed method.” So, the maps show which roads can be recommended as step 1 and step 2 using the assumption that those two types of roads jointly should be able to manage a 20 mm rain event without overflow to lower-lying areas, and with a maximum storage depth of 40 cm on step 2 streets.\nArealregnskap-Økosystemtype (by NIBIO, 2024)\nIt shows the ecosystem type\nBymorfologiklassifisering for blokker (by NINA, 2022)\nIt shows the urban morphology of the\nBefolkningsetthet per grunnkretser (by NINA, 2022)\nIt shows the population density per grunnkretser. Low values means low demand for tree planting due to low population density and high values means high demand for tree planting due to high population density."
+  },
+  {
+    "objectID": "layers.html#areal",
+    "href": "layers.html#areal",
+    "title": "2  Layers",
+    "section": "2.2 Areal",
+    "text": "2.2 Areal\nParker (provided by BYM, Oslo Kommune, 2020)\nIt shows the location of the parks in Oslo."
+  },
+  {
+    "objectID": "layers.html#tilstand-biodiversitet",
+    "href": "layers.html#tilstand-biodiversitet",
+    "title": "2  Layers",
+    "section": "2.3 Tilstand-Biodiversitet",
+    "text": "2.3 Tilstand-Biodiversitet\nTrekkoridorer (by NINA, 2022)\nIt shows the tree corridors that are derived from a constructed 20m radius buffer of rivers and a 12m radius buffer of streams.\nEgnethet for pollinerende insekter (by NINA, 2022)\nThe pollinator habitat suitability shows low values – low demand for tree planting due to high pollinator potential and high values – high demand for tree planting due to low pollinator potential.\nHonning bie frie soner\nIt shows the area for free honeybee."
+  },
+  {
+    "objectID": "layers.html#tilstand",
+    "href": "layers.html#tilstand",
+    "title": "2  Layers",
+    "section": "2.4 Tilstand",
+    "text": "2.4 Tilstand\nAvstand til Skoler (by NINA, 2022)\nIt shows the distance from school buildings based on the Euclidean distance. It is classified into 3 classifications, a) Distance &lt;= 50m: 0, b) 50m &lt; Distance &lt;= 200m: 0.5, c) Distance &gt; 200m: 1. Low values indicate high demand for tree planting due to short distance to school and high values indicate low demand for tree planting due to long distance to school.\nLuftforurensing (by BYM Oslo Kommune, 2022) It shows the air pollution, where low values signify low demand for tree planting due to low air pollution and high values – high demand for tree planting due to high air pollution.\nTrekroner (by NINA, 2021)\nIt shows the location of the trees.\nBakketemperatur (by NINA, 2022)\nIt represents the land surface temperature in Oslo and the low values show low demand for tree planting due to low surface temperatures and the high values shows the opposite (high demand for tree planting due to high surface temperatures).\nOverflateavrenning (by NINA, 2022)\nIt shows the surface runoff where the low values are low demand for tree planting due to low surface runoff and the high values – high demand for tree planting due to high surface runoff.\nPotensiale for trekronesynlighet (by NINA, 2022)\nThe visibility of tree planting locations shows low values as low suitability for planning new trees due to a low visibility of planted trees, and high values as high suitability for planting new trees due to a high visibility of planted trees.\nTilgjengelig areal av større treklynger (by NINA, 2022)\nThe accessibility of continuous tree canopy was computed based on the accessible area of medium-small, medium-large, and large continuous canopy of trees taller than 10 m within 200 m distance. Low values show high demand for planting new trees due to low tree accessibility and high values show low demand for planting new trees due to high tree accessibility."
+  },
+  {
+    "objectID": "layers.html#økosystemtjeneste",
+    "href": "layers.html#økosystemtjeneste",
+    "title": "2  Layers",
+    "section": "2.5 Økosystemtjeneste",
+    "text": "2.5 Økosystemtjeneste\nTrekronesynlighet (by NINA, 2022)\nIt shows the visual exposure to tree crowns, where low values mean low demand for tree planting due to high green visual exposure, and high values mean high demand for tree planting due to low green visual exposure."
   }
 ]

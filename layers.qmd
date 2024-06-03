@@ -29,6 +29,10 @@ Layer shows developed a method for selecting streets for step 1 and step 2 in th
 This also entails that a step 2 road is not allowed to have a spillover. The developed method for designating these roads incorporates a parameter classified on a scale of 1 to 4. The parameter is flexible and context-dependent. Due to the topographical conditions of Oslo and due to the assumption of there being an important coherence between the slope of a road and its ability to retain and delay runoff, it is found appropriate to base this parameter on the slope, when Oslo is the case area. In addition, the road capacity is used for the designation. For roads to meet the requirements for step 2 roads, their capacity must be increased, i.e., the depth must be adjusted to a value higher than the size of the corresponding precipitation event with a 5-year return period. Otherwise, the step 2 road would only be able to fulfill requirement 1. Based on similar climate adaptation projects on roads in Copenhagen, the depth of the designated step 2 roads is set to 0.40 m (Jensen, 2023). The depth should again solely be seen as a necessary measure to calculate the capacity of the roads and illustrate the principle behind the developed method." 
 So, the maps show which roads can be recommended as step 1 and step 2 using the assumption that those two types of roads jointly should be able to manage a 20 mm rain event without overflow to lower-lying areas, and with a maximum storage depth of 40 cm on step 2 streets.
 
+**Arealregnskap-Økosystemtype (by NIBIO, 2024)**
+
+It shows the ecosystem type
+
 **Bymorfologiklassifisering for blokker (by NINA, 2022)**
 
 It shows the urban morphology of the 

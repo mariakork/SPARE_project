@@ -15,7 +15,6 @@ book:
     - index.qmd
     - part: my-first-book.qmd
       chapters: 
-        - hello-world.qmd
         - Introduction.qmd
         - layers.qmd
   appendices:
