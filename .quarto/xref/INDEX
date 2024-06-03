@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "ec809ecb"
+  },
+  "my-first-book.qmd": {
+    "my-first-book.html": "26697cb5"
+  },
+  "hello-world.qmd": {
+    "hello-world.html": "e5b22a63"
+  },
+  "appendix-notes.qmd": {
+    "appendix-notes.html": "aa251c1a"
+  },
+  "Introduction.qmd": {
+    "Introduction.html": "c4f0b795"
+  },
+  "layers.qmd": {
+    "layers.html": "6d91d7ca"
+  }
+}

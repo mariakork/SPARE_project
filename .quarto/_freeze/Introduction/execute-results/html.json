@@ -1,0 +1,16 @@
+{
+  "hash": "60a89fc8c9b8e248cf1be1a08cf5803b",
+  "result": {
+    "markdown": "# Introduction\n\nAim: An interactive GIS map portal features digital maps showcasing the study report maps developed by the SPARE project. This portal serves as a map basis for 'ecosystem accounting for the city' and for testing the biodiversity index.\n\nFigure\n\n![Bynatur_Atlas](SPARE_project/Bynatur_atlas_figure.PNG)\n\n\n\n\n\n\n\n# The Hello World Example {#sec-hello-world}\n\nHello Quarto World!\n\n## Figures and cross referencing\n\nYou can cross reference figures and tables easily. See for example @fig-plot, or if this figure was in the supplementary, you could add a custom prefix and cite it as [Figure S @fig-plot] .\n\nYou can also cross reference chapters, for example with a hyper link like [this](#sec-appendix), or directly, like @sec-appendix.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![This is a figure caption](Introduction_files/figure-html/fig-plot-1.png){#fig-plot width=672}\n:::\n:::\n\n\nHere's a simple markdown generated table [@tbl-myTable]:\n\n| Animal | Colour  | Size |\n|--------|---------|------|\n| Bear   | Brown   | Big  |\n| Wolf   | Grey    | Big  |\n| Lynx   | Orange? | Big  |\n\n: My Table {#tbl-myTable}\n\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\\\\\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the `references.bib` file. Here's a reference to a paper [@arvesen2018].\n\nFor general Quarto help, see [here](#0){style=\"font-size: 11pt;\"}, and for Quarto books, see [here](Quarto%20–%20Book%20Structure%3E%3E).\n\n#### References {.unnumbered}\n",
+    "supporting": [
+      "Introduction_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
