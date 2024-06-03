@@ -6,7 +6,7 @@ book:
   title: "Bynatur Atlas"
   author: "Maria Korkou"
   description: | 
-    Add some description here if you like.
+    SPARE project - Space for resilience - how do we plan for stormwater, biodiversity and recreation to increase urban resilience? 
   repo-url: https://mariakork.github.io/SPARE_project/
   repo-branch: main
   repo-actions: [edit]
@@ -16,7 +16,7 @@ book:
     - part: my-first-book.qmd
       chapters: 
         - hello-world.qmd
-        - Chapter_1.qmd
+        - Introduction.qmd
         - layers.qmd
   appendices:
     - appendix-notes.qmd
