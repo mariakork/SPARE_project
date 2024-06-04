@@ -1,0 +1,90 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1038/s41598-018-21559-8",
+            "author": [
+                {
+                    "family": "Arvesen",
+                    "given": "Anders"
+                },
+                {
+                    "family": "Cherubini",
+                    "given": "Francesco"
+                },
+                {
+                    "family": "Serrano",
+                    "given": "Gonzalo del Alamo"
+                },
+                {
+                    "family": "Astrup",
+                    "given": "Rasmus"
+                },
+                {
+                    "family": "Becidan",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Belbo",
+                    "given": "Helmer"
+                },
+                {
+                    "family": "Goile",
+                    "given": "Franziska"
+                },
+                {
+                    "family": "Grytli",
+                    "given": "Tuva"
+                },
+                {
+                    "family": "Guest",
+                    "given": "Geoffrey"
+                },
+                {
+                    "family": "Lausselet",
+                    "given": "Carine"
+                },
+                {
+                    "family": "Rørstad",
+                    "given": "Per Kristian"
+                },
+                {
+                    "family": "Rydså",
+                    "given": "Line"
+                },
+                {
+                    "family": "Seljeskog",
+                    "given": "Morten"
+                },
+                {
+                    "family": "Skreiberg",
+                    "given": "Øyvind"
+                },
+                {
+                    "family": "Vezhapparambu",
+                    "given": "Sajith"
+                },
+                {
+                    "family": "Strømman",
+                    "given": "Anders Hammer"
+                }
+            ],
+            "container-title": "Scientific Reports",
+            "id": "arvesen2018",
+            "issue": "September 2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "1-13",
+            "title": "Cooling aerosols and changes in albedo counteract warming from CO 2 and black carbon from forest bioenergy in norway",
+            "type": "article-journal",
+            "volume": "8"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

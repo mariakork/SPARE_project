@@ -1,0 +1,16 @@
+::: {layout-ncol="2"}
+#### R
+
+```{r}
+my_list = list(1, 2, 3)
+typeof(my_list)
+```
+
+#### Python
+
+```{python}
+|# eval=FALSE
+  my_list = [1, 2, 3]
+type(my_list)
+```
+:::

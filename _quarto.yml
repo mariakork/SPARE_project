@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: _book
+  
+book:
+  title: "Bynatur Atlas"
+  author: "Maria Korkou"
+  description: | 
+    SPARE Project - Space for resilience (SPARE) - how do we plan for stormwater,biodiversity and recreation to increase urban resilience?
+  repo-url: https://github.com/NINAnor/NINA-ebook-template
+  repo-branch: main
+  repo-actions: [edit]
+  sharing: [twitter, facebook, linkedin]
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - layers.qmd
+  appendices:
+    - appendix-notes.qmd
+    
+format:
+  html: 
+    theme: 
+    - cosmo
+    - NINAstyle.scss
+    
+    code-link: true
+
+bibliography: references.bib
+csl: NINArefStyle.csl
