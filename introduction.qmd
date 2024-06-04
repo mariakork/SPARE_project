@@ -1,7 +1,7 @@
-# Introduction
+# Introduksjon
 
-Aim: An interactive GIS map portal features digital maps showcasing the study report maps developed by the SPARE project. This portal serves as a map basis for 'ecosystem accounting for the city' and for testing the biodiversity index.
+Mål: En interaktiv GIS-kartportal inneholder digitale kart som viser kartene fra studierapporten som er utviklet i SPARE-prosjektet. Denne portalen fungerer som kartgrunnlag for «økosystemregnskap for byen» og for testing av indeksen for biologisk mangfold.
 
-Figure
+Figur
 
 ![Bynatur_Atlas](SPARE_project/Bynatur_atlas_figure.PNG) 
