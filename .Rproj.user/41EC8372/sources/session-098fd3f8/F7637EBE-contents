@@ -1,100 +1,101 @@
-# Layers
-The T6.5 of WP6 focuses on developing an interactive GIS platform for map dissemination based on spatial data on resilience (stormwater, biodiversity and recreation). This map can be founded under this link https://experience.arcgis.com/experience/81acd21d23e048388b710bcd8fca24cf/. You can open the link in the Microsoft Edge.
+# Kartlagene
+T6.5 i arbeidspakke 6 fokuserer på å utvikle en interaktiv GIS-plattform for kartformidling basert på romlige data om motstandskraft (overvann, biologisk mangfold og rekreasjon). Dette kartet kan du finne under denne lenken  https://experience.arcgis.com/experience/5f702504313c4cedad1eab4791203b4b/. 
 
 
-To use the experience builder in ArcGIS online, you need first to activate the swipe widget (down in the middle of the page), that provides the option to view layers next to each other or one layer in the left side and the grey basemap on the right side. The map has been organised based on the Naturregnskap (Økosystemregnskap). The categories includes Grunnkart, Areal, Tilstand-Biodiversitet, Tilstand and Økosystemtjeneste. All the layers are inactive, and you have to click on the eye sign to activate them. Next to layer tab is the legend of the map. Every time that you open one layer, the legend is on too. When you open a layer, you zoom, and you can click in one block and get information in a table appearing next to the block.
+For å bruke opplevelsesbyggeren i ArcGIS online, må du først aktivere sveipewidgeten (nede i midten av siden), som gir mulighet til å vise lag ved siden av hverandre eller ett lag i venstre side og det grå grunnkartet på høyre side. Kartet er organisert med utgangspunkt i Naturregnskap (Økosystemregnskap). Kategoriene inkluderer Grunnkart, Areal, Tilstand-Biodiversitet, Tilstand og Økosystemtjeneste. Alle lagene er inaktive, og du må klikke på øyetegnet for å aktivere dem. Ved siden av lagfanen finner du kartets tegnforklaring. Hver gang du åpner et lag, vises også tegnforklaringen. Når du åpner et lag, zoomer du, og du kan klikke i en blokk og få informasjon i en tabell som vises ved siden av blokken.
 
 ## Grunnkart
 
-**Oslo kommune (by PBE, 2017)**
+**Oslo byggesonen (fra PBE, 2017)**
 
-It shows the borders of Oslo municipality.
+Den viser grensene til Oslo byggesonen.
 
-**Bydeler (by PBE, 2016)**
+**Bydeler byggesonen (fra PBE, 2016)**
 
-It shows the borders of bydeler.
+Den viser grensene for bydeler byggesonen.
 
-**Grunnkretser (by PBE, 2016)**
+**Grunnkretser byggesonen (fra PBE, 2016)**
 
-It shows the borders of grunnkretser. 
+Den viser grensene for grunnkretser byggesonen. 
 
 **Veier-avrenning 20mm**
-**Veier-avrenning 50mm**
+**Veier-avrenning 50mm (fra Københavns Universitet)**
 
-Layer shows developed a method for selecting streets for step 1 and step 2 in the three-step approach of Oslo (from Copenhagen University). "Since all roads should be able to meet the requirements of step 1, designating step 2 roads is the central aspect of the method. A step 2 road involves the detention of runoff from its area and its surroundings accommodating a service level corresponding to a precipitation event with a 5-year return period. This leads to the two following requirements for a step 2 road:
+Laget viser en metode for utvelgelse av gater til trinn 1 og trinn 2 i tretrinnsmetoden til Oslo (fra Københavns universitet). «Siden alle veier skal kunne oppfylle kravene i trinn 1, er utpeking av trinn 2-veier det sentrale aspektet ved metoden. En trinn 2-vei innebærer fordrøyning av avrenning fra området og omgivelsene med et servicenivå som tilsvarer en nedbørshendelse med en returperiode på 5 år. Dette fører til følgende to krav til en trinn 2-vei:
 
-- Must retain precipitation hitting its road area
-- Must retain excess water from upstream adjacent step 1 roads.
+- Må holde tilbake nedbør som treffer veiområdet.
+- Må holde tilbake overskuddsvann fra oppstrøms tilstøtende trinn 1-veier.
 
-This also entails that a step 2 road is not allowed to have a spillover. The developed method for designating these roads incorporates a parameter classified on a scale of 1 to 4. The parameter is flexible and context-dependent. Due to the topographical conditions of Oslo and due to the assumption of there being an important coherence between the slope of a road and its ability to retain and delay runoff, it is found appropriate to base this parameter on the slope, when Oslo is the case area. In addition, the road capacity is used for the designation. For roads to meet the requirements for step 2 roads, their capacity must be increased, i.e., the depth must be adjusted to a value higher than the size of the corresponding precipitation event with a 5-year return period. Otherwise, the step 2 road would only be able to fulfill requirement 1. Based on similar climate adaptation projects on roads in Copenhagen, the depth of the designated step 2 roads is set to 0.40 m (Jensen, 2023). The depth should again solely be seen as a necessary measure to calculate the capacity of the roads and illustrate the principle behind the developed method." 
-So, the maps show which roads can be recommended as step 1 and step 2 using the assumption that those two types of roads jointly should be able to manage a 20 mm rain event without overflow to lower-lying areas, and with a maximum storage depth of 40 cm on step 2 streets.
+Dette innebærer også at en trinn 2-vei ikke kan ha overløp. Den utviklede metoden for å utpeke disse veiene inneholder en parameter som klassifiseres på en skala fra 1 til 4. Parameteren er fleksibel og kontekstavhengig. På grunn av de topografiske forholdene i Oslo og antakelsen om at det er en viktig sammenheng mellom en veis helning og dens evne til å holde tilbake og forsinke avrenning, er det funnet hensiktsmessig å basere denne parameteren på helningen når Oslo er caseområdet. I tillegg brukes veikapasiteten til utpekingen. For at veier skal oppfylle kravene til trinn 2-veier, må kapasiteten økes, det vil si at dybden må justeres til en verdi som er høyere enn størrelsen på den tilsvarende nedbørshendelsen med 5 års returperiode. I motsatt fall vil trinn 2-veien bare kunne oppfylle krav 1. Basert på lignende klimatilpasningsprosjekter på veier i København er dybden på de utpekte trinn 2-veiene satt til 0,40 m (Jensen, 2023). Dybden skal igjen kun ses på som et nødvendig mål for å beregne kapasiteten til veiene og illustrere prinsippet bak den utviklede metoden.» 
+Kartene viser altså hvilke veier som kan anbefales som trinn 1 og trinn 2 ut fra en antakelse om at disse to veitypene til sammen skal kunne håndtere et 20 mm regn uten overløp til lavereliggende områder, og med en maksimal magasineringsdybde på 40 cm på trinn 2-gatene.
 
-**Arealregnskap-Økosystemtype (by NIBIO, 2024)**
+**Arealregnskap-Økosystemtype (fra NIBIO, 2024)**
 
-It shows the ecosystem type
+Den viser økosystemtypen.
 
-**Bymorfologiklassifisering for blokker (by NINA, 2022)**
+**Bymorfologiklassifisering for blokker (fra NINA, 2022)**
 
-It shows the urban morphology of the 
+Den viser den urbane morfologien til kvartalene i Oslo byggesonen.
 
-**Befolkningsetthet per grunnkretser (by NINA, 2022)**
+**Befolkningsetthet per grunnkretser (fra NINA, 2022)**
 
 It shows the population density per grunnkretser. Low values means low demand for tree planting due to low population density and high values means high demand for tree planting due to high population density.
 
 
 ## Areal
 
-**Parker (provided by BYM, Oslo Kommune, 2020)**
+**Parker (fra BYM, Oslo Kommune, 2020)**
 
-It shows the location of the parks in Oslo.
+Den viser hvor parkene ligger i Oslo.
 
 ## Tilstand-Biodiversitet
 
-**Trekkoridorer (by NINA, 2022)**
+**Trekkoridorer (fra NINA, 2022)**
 
-It shows the tree corridors that are derived from a constructed 20m radius buffer of rivers and a 12m radius buffer of streams.
+Den viser trekorridorene som er avledet fra en konstruert buffer med en radius på 20 meter rundt elver og en buffer med en radius på 12 meter rundt bekker.
 
-**Egnethet for pollinerende insekter (by NINA, 2022)**
+**Egnethet for pollinerende insekter (fra NINA, 2022)**
 
-The pollinator habitat suitability shows low values – low demand for tree planting due to high pollinator potential and high values – high demand for tree planting due to low pollinator potential.
+Pollinatorhabitatets egnethet viser lave verdier - lav etterspørsel etter treplanting på grunn av høyt pollinatorpotensial - og høye verdier - høy etterspørsel etter treplanting på grunn av lavt pollinatorpotensial.
 
 **Honning bie frie soner**
 
-It shows the area for free honeybee.
+Den viser området for fri honningbi.
 
 
 ## Tilstand
 
-**Avstand til Skoler (by NINA, 2022)**
+**Avstand til Skoler (fra NINA, 2022)**
 
-It shows the distance from school buildings based on the Euclidean distance. It is classified into 3 classifications, a) Distance <= 50m: 0, b) 50m < Distance <= 200m: 0.5, c) Distance > 200m: 1. Low values indicate high demand for tree planting due to short distance to school and high values indicate low demand for tree planting due to long distance to school.
+Den viser avstanden fra skolebygninger basert på den euklidske avstanden. Den er klassifisert i tre kategorier: a) Avstand <= 50 m: 0, b) 50 m < Avstand <= 200 m: 0,5, c) Avstand > 200 m: 1. Lave verdier indikerer høy etterspørsel etter treplanting på grunn av kort avstand til skolen, og høye verdier indikerer lav etterspørsel etter treplanting på grunn av lang avstand til skolen.
 
-**Luftforurensing (by BYM Oslo Kommune, 2022)**
-It shows the air pollution, where low values signify low demand for tree planting due to low air pollution and high values – high demand for tree planting due to high air pollution.
+**Luftforurensing (fra BYM Oslo Kommune, 2022)**
 
-**Trekroner (by NINA, 2021)**
+Den viser luftforurensningen, der lave verdier betyr lav etterspørsel etter treplanting på grunn av lav luftforurensning, og høye verdier betyr høy etterspørsel etter treplanting på grunn av høy luftforurensning..
 
-It shows the location of the trees.
+**Trekroner (fra NINA, 2021)**
 
-**Bakketemperatur (by NINA, 2022)**
+Den viser hvor trærne befinner seg.
 
-It represents the land surface temperature in Oslo and the low values show low demand for tree planting due to low surface temperatures and the high values shows the opposite (high demand for tree planting due to high surface temperatures).
+**Bakketemperatur (fra NINA, 2022)**
 
-**Overflateavrenning (by NINA, 2022)**
+Den representerer overflatetemperaturen i Oslo, og de lave verdiene viser lav etterspørsel etter treplanting på grunn av lave overflatetemperaturer, og de høye verdiene viser det motsatte (høy etterspørsel etter treplanting på grunn av høye overflatetemperaturer).
 
-It shows the surface runoff where the low values are low demand for tree planting due to low surface runoff and the high values – high demand for tree planting due to high surface runoff.
+**Overflateavrenning (fra NINA, 2022)**
 
-**Potensiale for trekronesynlighet (by NINA, 2022)**
+Den viser overflateavrenningen, der de lave verdiene betyr lav etterspørsel etter treplanting på grunn av lav overflateavrenning, og de høye verdiene betyr høy etterspørsel etter treplanting på grunn av høy overflateavrenning.
 
-The visibility of tree planting locations shows low values as low suitability for planning new trees due to a low visibility of planted trees, and high values as high suitability for planting new trees due to a high visibility of planted trees.
+**Potensiale for trekronesynlighet (fra NINA, 2022)**
 
-**Tilgjengelig areal av større treklynger (by NINA, 2022)**
+Synligheten av treplantingssteder viser lave verdier som lav egnethet for planlegging av nye trær på grunn av lav synlighet av plantede trær, og høye verdier som høy egnethet for planting av nye trær på grunn av høy synlighet av plantede trær.
 
-The accessibility of continuous tree canopy was computed based on the accessible area of medium-small, medium-large, and large continuous canopy of trees taller than 10 m within 200 m distance. Low values show high demand for planting new trees due to low tree accessibility and high values show low demand for planting new trees due to high tree accessibility.
+**Tilgjengelig areal av større treklynger (fra NINA, 2022)**
+
+Tilgjengeligheten til sammenhengende trekroner ble beregnet basert på det tilgjengelige arealet av middels små, middels store og store sammenhengende trekroner med en høyde på over 10 m innenfor en avstand på 200 m. Lave verdier viser høy etterspørsel etter planting av nye trær på grunn av lav tilgjengelighet, og høye verdier viser lav etterspørsel etter planting av nye trær på grunn av høy tilgjengelighet.
 
 ## Økosystemtjeneste
 
-**Trekronesynlighet (by NINA, 2022)**
+**Trekronesynlighet (fra NINA, 2022)**
 
-It shows the visual exposure to tree crowns, where low values mean low demand for tree planting due to high green visual exposure, and high values mean high demand for tree planting due to low green visual exposure.
+Den viser den visuelle eksponeringen for trekroner, der lave verdier betyr lav etterspørsel etter treplanting på grunn av høy grønn visuell eksponering, og høye verdier betyr høy etterspørsel etter treplanting på grunn av lav grønn visuell eksponering.
 

@@ -1,6 +1,7 @@
 {
   "hash": "05a842b31ad92e4e07d0cbe63c3c661f",
   "result": {
+    "engine": "knitr",
     "markdown": "# The Hello World Example {#sec-hello-world}\n\nHello Quarto World!\n\n## Figures and cross referencing\n\nYou can cross reference figures and tables easily. See for example @fig-plot, or if this figure was in the supplementary, you could add a custom prefix and cite it as [Figure S @fig-plot] .\n\nYou can also cross reference chapters, for example with a hyper link like [this](#sec-appendix), or directly, like @sec-appendix.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![This is a figure caption](hello-world_files/figure-html/fig-plot-1.png){#fig-plot width=672}\n:::\n:::\n\n\nHere's a simple markdown generated table [@tbl-myTable]:\n\n| Animal | Colour  | Size |\n|--------|---------|------|\n| Bear   | Brown   | Big  |\n| Wolf   | Grey    | Big  |\n| Lynx   | Orange? | Big  |\n\n: My Table {#tbl-myTable}\n\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\\\\\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the `references.bib` file. Here's a reference to a paper [@arvesen2018].\n\nFor general Quarto help, see [here](#0){style=\"font-size: 11pt;\"}, and for Quarto books, see [here](Quarto%20–%20Book%20Structure%3E%3E).\n\n#### References {.unnumbered}\n",
     "supporting": [
       "hello-world_files"

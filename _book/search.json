@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "This is the title",
+    "section": "",
+    "text": "Welcome\nWelcome splash page! Provide an overview of the book.\nSample evaluation of R and Python in a side-by-side manner:\nSee Chapter 1 for how to plot and cross reference figures. We cannot make cross referanceble objects on this page, because it is an unnumbered page, and you can’t cross reference to things in unnumbered pages.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Bynatur Atlas",
+    "section": "Welcome",
+    "text": "Welcome\nDette arbeidet er en del av SPARE-prosjektet, som har som mål å fremskaffe kunnskap, evidensbaserte forvaltningsmetoder og verktøy for å bedre integrere klimatilpasning (med fokus på overvannshåndtering), støtte til biologisk mangfold og rekreasjon i urban arealforvaltning ved å bruke BGI for å muliggjøre SPARE-forvaltning og legge til rette for overgangen til blågrønne byer."
+  },
+  {
+    "objectID": "my-first-book.html",
+    "href": "my-first-book.html",
+    "title": "Part 1: Write the book",
+    "section": "",
+    "text": "Sample additional page"
+  },
+  {
+    "objectID": "hello-world.html",
+    "href": "hello-world.html",
+    "title": "1  The Hello World Example",
+    "section": "",
+    "text": "1.1 Figures and cross referencing\nYou can cross reference figures and tables easily. See for example Figure 1.1, or if this figure was in the supplementary, you could add a custom prefix and cite it as Figure S 1.1 .\nYou can also cross reference chapters, for example with a hyper link like this, or directly, like Appendix A.\nplot(cars)\n\n\n\n\n\n\nFigure 1.1: This is a figure caption\nHere’s a simple markdown generated table Table 1.1:\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the references.bib file. Here’s a reference to a paper (Arvesen et al. 2018).\nFor general Quarto help, see here, and for Quarto books, see here.",
+    "crumbs": [
+      "Part 1: Write the book",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Hello World Example</span>"
+    ]
+  },
+  {
+    "objectID": "appendix-notes.html",
+    "href": "appendix-notes.html",
+    "title": "Appendix A — Additional Notes",
+    "section": "",
+    "text": "Sample appendix",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Additional Notes</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#figures-and-cross-referenncing",
+    "href": "index.html#figures-and-cross-referenncing",
+    "title": "This is the title",
+    "section": "Figures and cross referenncing",
+    "text": "Figures and cross referenncing\nYou can cross reference figures and tables easily. See for example Figure This is a figure caption. You can also cross ref to chapter, for example like this.\n\n\n\n\n\n\n\nFigure 1: This is a figure caption\n\n\n\n\nFor general Quarto help, see here.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#figures-and-cross-referencing",
+    "href": "index.html#figures-and-cross-referencing",
+    "title": "This is the title",
+    "section": "Figures and cross referencing",
+    "text": "Figures and cross referencing\nYou can cross reference figures and tables easily. See for example Figure This is a figure caption, or if this figure was in the supplementary, you could add a custum prefix and cite it as [Figure S@fig-plot].\nYou can also cross reference chapters, for example like this.\n\nplot(cars)\n\n\n\n\n\n\nFigure 1: This is a figure caption\n\n\n\n\nHere’s a simple markdown generated table Table My Table:\n\n\nTable 1: My Table\n\n\n\nAnimal\nColour\nSize\n\n\n\nBear\nBrown\nBig\n\n\nWolf\nGrey\nBig\n\n\nLynx\nOrange?\nBig\n\n\n\n\n\n\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the references.bib file. Here’s a reference to a paper (Arvesen et al. 2018).\nFor general Quarto help, see here.\nReferences\n\n\n\n\nArvesen, Anders, Francesco Cherubini, Gonzalo del Alamo Serrano, Rasmus Astrup, Michael Becidan, Helmer Belbo, Franziska Goile, et al. 2018. “Cooling Aerosols and Changes in Albedo Counteract Warming from CO 2 and Black Carbon from Forest Bioenergy in Norway.” Scientific Reports 8 (September 2017): 1–13. https://doi.org/10.1038/s41598-018-21559-8.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "hello-world.html#figures-and-cross-referencing",
+    "href": "hello-world.html#figures-and-cross-referencing",
+    "title": "1  The Hello World Example",
+    "section": "",
+    "text": "Table 1.1: My Table\n\n\n\nAnimal\nColour\nSize\n\n\n\nBear\nBrown\nBig\n\n\nWolf\nGrey\nBig\n\n\nLynx\nOrange?\nBig\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\nArvesen, A., Cherubini, F., Serrano, G. del A., Astrup, R., Becidan, M., Belbo, H., Goile, F., Grytli, T., Guest, G., Lausselet, C., Rørstad, P.K., Rydså, L., Seljeskog, M., Skreiberg, Ø., Vezhapparambu, S., and Strømman, A.H. 2018. Cooling aerosols and changes in albedo counteract warming from CO 2 and black carbon from forest bioenergy in norway. Scientific Reports 8(September 2017): 1–13. doi:10.1038/s41598-018-21559-8.",
+    "crumbs": [
+      "Part 1: Write the book",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Hello World Example</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "1  Introduksjon",
+    "section": "",
+    "text": "Mål: En interaktiv GIS-kartportal inneholder digitale kart som viser kartene fra studierapporten som er utviklet i SPARE-prosjektet. Denne portalen fungerer som kartgrunnlag for «økosystemregnskap for byen» og for testing av indeksen for biologisk mangfold.\nFigur\n\n\n\nBynatur_Atlas"
+  },
+  {
+    "objectID": "layers.html#grunnkart",
+    "href": "layers.html#grunnkart",
+    "title": "2  Kartlagene",
+    "section": "2.1 Grunnkart",
+    "text": "2.1 Grunnkart\nOslo byggesonen (fra PBE, 2017)\nDen viser grensene til Oslo byggesonen.\nBydeler byggesonen (fra PBE, 2016)\nDen viser grensene for bydeler byggesonen.\nGrunnkretser byggesonen (fra PBE, 2016)\nDen viser grensene for grunnkretser byggesonen.\nVeier-avrenning 20mm Veier-avrenning 50mm (fra Københavns Universitet)\nLaget viser en metode for utvelgelse av gater til trinn 1 og trinn 2 i tretrinnsmetoden til Oslo (fra Københavns universitet). «Siden alle veier skal kunne oppfylle kravene i trinn 1, er utpeking av trinn 2-veier det sentrale aspektet ved metoden. En trinn 2-vei innebærer fordrøyning av avrenning fra området og omgivelsene med et servicenivå som tilsvarer en nedbørshendelse med en returperiode på 5 år. Dette fører til følgende to krav til en trinn 2-vei:\n\nMå holde tilbake nedbør som treffer veiområdet.\nMå holde tilbake overskuddsvann fra oppstrøms tilstøtende trinn 1-veier.\n\nDette innebærer også at en trinn 2-vei ikke kan ha overløp. Den utviklede metoden for å utpeke disse veiene inneholder en parameter som klassifiseres på en skala fra 1 til 4. Parameteren er fleksibel og kontekstavhengig. På grunn av de topografiske forholdene i Oslo og antakelsen om at det er en viktig sammenheng mellom en veis helning og dens evne til å holde tilbake og forsinke avrenning, er det funnet hensiktsmessig å basere denne parameteren på helningen når Oslo er caseområdet. I tillegg brukes veikapasiteten til utpekingen. For at veier skal oppfylle kravene til trinn 2-veier, må kapasiteten økes, det vil si at dybden må justeres til en verdi som er høyere enn størrelsen på den tilsvarende nedbørshendelsen med 5 års returperiode. I motsatt fall vil trinn 2-veien bare kunne oppfylle krav 1. Basert på lignende klimatilpasningsprosjekter på veier i København er dybden på de utpekte trinn 2-veiene satt til 0,40 m (Jensen, 2023). Dybden skal igjen kun ses på som et nødvendig mål for å beregne kapasiteten til veiene og illustrere prinsippet bak den utviklede metoden.» Kartene viser altså hvilke veier som kan anbefales som trinn 1 og trinn 2 ut fra en antakelse om at disse to veitypene til sammen skal kunne håndtere et 20 mm regn uten overløp til lavereliggende områder, og med en maksimal magasineringsdybde på 40 cm på trinn 2-gatene.\nArealregnskap-Økosystemtype (fra NIBIO, 2024)\nDen viser økosystemtypen.\nBymorfologiklassifisering for blokker (fra NINA, 2022)\nDen viser den urbane morfologien til kvartalene i Oslo byggesonen.\nBefolkningsetthet per grunnkretser (fra NINA, 2022)\nIt shows the population density per grunnkretser. Low values means low demand for tree planting due to low population density and high values means high demand for tree planting due to high population density."
+  },
+  {
+    "objectID": "layers.html#areal",
+    "href": "layers.html#areal",
+    "title": "2  Kartlagene",
+    "section": "2.2 Areal",
+    "text": "2.2 Areal\nParker (fra BYM, Oslo Kommune, 2020)\nDen viser hvor parkene ligger i Oslo."
+  },
+  {
+    "objectID": "layers.html#tilstand-biodiversitet",
+    "href": "layers.html#tilstand-biodiversitet",
+    "title": "2  Kartlagene",
+    "section": "2.3 Tilstand-Biodiversitet",
+    "text": "2.3 Tilstand-Biodiversitet\nTrekkoridorer (fra NINA, 2022)\nDen viser trekorridorene som er avledet fra en konstruert buffer med en radius på 20 meter rundt elver og en buffer med en radius på 12 meter rundt bekker.\nEgnethet for pollinerende insekter (fra NINA, 2022)\nPollinatorhabitatets egnethet viser lave verdier - lav etterspørsel etter treplanting på grunn av høyt pollinatorpotensial - og høye verdier - høy etterspørsel etter treplanting på grunn av lavt pollinatorpotensial.\nHonning bie frie soner\nDen viser området for fri honningbi."
+  },
+  {
+    "objectID": "layers.html#tilstand",
+    "href": "layers.html#tilstand",
+    "title": "2  Kartlagene",
+    "section": "2.4 Tilstand",
+    "text": "2.4 Tilstand\nAvstand til Skoler (fra NINA, 2022)\nDen viser avstanden fra skolebygninger basert på den euklidske avstanden. Den er klassifisert i tre kategorier: a) Avstand &lt;= 50 m: 0, b) 50 m &lt; Avstand &lt;= 200 m: 0,5, c) Avstand &gt; 200 m: 1. Lave verdier indikerer høy etterspørsel etter treplanting på grunn av kort avstand til skolen, og høye verdier indikerer lav etterspørsel etter treplanting på grunn av lang avstand til skolen.\nLuftforurensing (fra BYM Oslo Kommune, 2022)\nDen viser luftforurensningen, der lave verdier betyr lav etterspørsel etter treplanting på grunn av lav luftforurensning, og høye verdier betyr høy etterspørsel etter treplanting på grunn av høy luftforurensning..\nTrekroner (fra NINA, 2021)\nDen viser hvor trærne befinner seg.\nBakketemperatur (fra NINA, 2022)\nDen representerer overflatetemperaturen i Oslo, og de lave verdiene viser lav etterspørsel etter treplanting på grunn av lave overflatetemperaturer, og de høye verdiene viser det motsatte (høy etterspørsel etter treplanting på grunn av høye overflatetemperaturer).\nOverflateavrenning (fra NINA, 2022)\nDen viser overflateavrenningen, der de lave verdiene betyr lav etterspørsel etter treplanting på grunn av lav overflateavrenning, og de høye verdiene betyr høy etterspørsel etter treplanting på grunn av høy overflateavrenning.\nPotensiale for trekronesynlighet (fra NINA, 2022)\nSynligheten av treplantingssteder viser lave verdier som lav egnethet for planlegging av nye trær på grunn av lav synlighet av plantede trær, og høye verdier som høy egnethet for planting av nye trær på grunn av høy synlighet av plantede trær.\nTilgjengelig areal av større treklynger (fra NINA, 2022)\nTilgjengeligheten til sammenhengende trekroner ble beregnet basert på det tilgjengelige arealet av middels små, middels store og store sammenhengende trekroner med en høyde på over 10 m innenfor en avstand på 200 m. Lave verdier viser høy etterspørsel etter planting av nye trær på grunn av lav tilgjengelighet, og høye verdier viser lav etterspørsel etter planting av nye trær på grunn av høy tilgjengelighet."
+  },
+  {
+    "objectID": "layers.html#økosystemtjeneste",
+    "href": "layers.html#økosystemtjeneste",
+    "title": "2  Kartlagene",
+    "section": "2.5 Økosystemtjeneste",
+    "text": "2.5 Økosystemtjeneste\nTrekronesynlighet (fra NINA, 2022)\nDen viser den visuelle eksponeringen for trekroner, der lave verdier betyr lav etterspørsel etter treplanting på grunn av høy grønn visuell eksponering, og høye verdier betyr høy etterspørsel etter treplanting på grunn av lav grønn visuell eksponering."
+  },
+  {
+    "objectID": "index.html#velkommen",
+    "href": "index.html#velkommen",
+    "title": "Bynatur Atlas",
+    "section": "Velkommen",
+    "text": "Velkommen\nDette arbeidet er en del av SPARE-prosjektet, som har som mål å fremskaffe kunnskap, evidensbaserte forvaltningsmetoder og verktøy for å bedre integrere klimatilpasning (med fokus på overvannshåndtering), støtte til biologisk mangfold og rekreasjon i urban arealforvaltning ved å bruke BGI for å muliggjøre SPARE-forvaltning og legge til rette for overgangen til blågrønne byer."
+  }
+]

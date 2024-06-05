@@ -1,5 +1,5 @@
 {
-  "hash": "8f89bbad184b3c8b30cc1515328ffa8d",
+  "hash": "bec125d6d4c705a86678b9973bfb47b6",
   "result": {
     "markdown": "---\nbibliography: references.bib\n---\n\n\n## Welcome {.unnumbered}\n\nWelcome splash page! Provide an overview of the book.\n\nSample evaluation of R and Python in a side-by-side manner:\n\n#### R\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmy_list = list(1, 2, 3)\ntypeof(my_list)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"list\"\n```\n:::\n:::\n\n\nSee [Chapter 1](#sec-hello-world) for how to plot and cross reference figures. We cannot make cross referanceble objects on this page, because it is an *unnumbered* page, and you can't cross reference to things in unnumbered pages.\n",
     "supporting": [],
